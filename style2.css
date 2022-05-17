@@ -1,0 +1,123 @@
+/* Minhas cores */
+:root{
+    --fundo: #000000;
+    --gradientedefundo: linear-gradient(90deg, rgb(215, 231, 183) 0%, rgb(206, 233, 210) 35%, rgb(142, 192, 151) 100%);
+    }
+
+    body{
+
+
+        background: var(--gradientedefundo); 
+        color: rgba(27, 27, 27, 0.829);
+        width: 80%;
+        margin: auto;  
+        
+        font-family: 'Hubballi', cursive;        
+        font-size:30px;   
+    }  
+
+      menu{
+        display: flex;
+        justify-content: center;
+
+
+       }  
+    
+       menu strong{
+        color: rgb(184, 252, 96);
+       }
+        
+       menu a{   
+            text-decoration: none;
+            color: inherit;
+       }
+       
+       menu {
+        
+        width: 60%;
+
+
+        font-family: 'VT323', monospace;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.349);
+        border-radius: 10px;
+        
+        color: rgb(205, 216, 105);        
+        font-size:33px;
+
+        
+       }
+
+       footer{
+           text-align: center;
+       }
+
+
+
+       
+       #titulo{
+           display: flex;
+           justify-content: center;
+       }
+
+        #titulo h1{
+            width: 40%;
+            font-family: 'Rajdhani', cursive;
+            color: rgb(54, 75, 56);
+            /*background-color:rgba(0, 0, 0, 0.521);
+            border-radius: 10px;*/
+            text-align: center;       
+            font-size:40px;
+        }
+
+        
+
+        h1{
+            text-align: center;
+        }
+        
+        
+        h2{
+            font-family: 'Rajdhani', cursive;   /*'Rajdhani'*/     
+            text-align: center;
+            color: rgb(61, 82, 61);
+            font-size:40px;
+            font-weight: bolder;
+
+          
+            
+        }
+    
+        h3{
+            font-family: 'Hubballi', sans-serif;        
+            text-align: left;
+            color: rgb(77, 126, 80);
+            font-size:30px;
+
+        }
+        
+        
+        button{
+            margin: 0 auto;
+            display: block;
+            width: 50%;
+            border: none;
+            padding: 22px;
+            background-color: #fff;
+            border-radius: 10px;
+            font-size: large;
+        }
+        button:hover{
+            opacity: .8;
+        }
+    
+        .image{
+
+            text-align: center;
+
+        }
+
+        .image img{
+            height:200px;
+            width:200px;
+        }
